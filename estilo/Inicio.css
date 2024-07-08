@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
 
     font-family: "Poppins", sans-serif;
-    font-style: normal
+    font-style: normal;
 }
 
 #imglogo{
@@ -35,9 +35,22 @@ body{
     background: #ffffff;
     padding: 10px;
     border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.231);
 
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.193));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.254));
+}
+
+.capa div{
+    display: flex;
+}
+
+.capa h2{
+    margin-left: 15px;
+}
+
+.capa img{
+    width: 70px;
 }
 
 @media(max-width: 500px){
